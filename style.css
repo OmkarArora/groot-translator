@@ -30,7 +30,7 @@ body {
 }
 
 .header .header-content {
-  margin-top: -40px;
+  margin-top: -20px;
   margin-bottom: 0px;
 }
 
@@ -103,6 +103,30 @@ body {
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
   margin: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+
+.footer .social-icon {
+  width: 2rem;
+  padding-right: 0.5rem;
+  vertical-align: baseline;
+}
+
+.footer ul {
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 /* Safari */
