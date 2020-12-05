@@ -36,7 +36,11 @@ function clickEventHandler() {
       // Set translated text
       outputDiv.innerText = json.contents.translated;
     })
-    .catch((error) => console.log("error occurred", error));
+    .catch((error) => {
+      translatedSection.innerHTML = "<p>Server error <br/> Please try after some time</p>"
+      translatedSection.style.fontFamily = "Arial, sans-serif";
+      translatedSection.style.color = "red";
+    });
 }
 
 btnTranslate.addEventListener("click", clickEventHandler);
