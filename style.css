@@ -90,21 +90,6 @@ body {
   margin-top: 8px;
 }
 
-.translated-section {
-  display: none;
-}
-
-.loader {
-  border: 8px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 8px solid var(--primary-color);
-  width: 60px;
-  height: 60px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-  animation: spin 2s linear infinite;
-  margin: auto;
-}
-
 .link {
   text-decoration: none;
 }
@@ -127,6 +112,22 @@ body {
 .footer ul {
   margin-top: 20px;
   margin-bottom: 0px;
+}
+
+.translated-section {
+  display: none;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid var(--primary-color);
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: auto;
+  display: none;
 }
 
 /* Safari */

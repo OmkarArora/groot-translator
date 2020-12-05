@@ -4,10 +4,6 @@ var outputDiv = document.querySelector("#output");
 var loader = document.querySelector(".loader");
 var translatedSection = document.querySelector(".translated-section");
 
-function init() {
-  loader.style.display = "none";
-}
-
 // MOCK API
 // var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
